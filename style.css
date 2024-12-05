@@ -1,0 +1,177 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    /* border: 1px solid; */
+   font-family: sans-serif;
+}
+nav{
+    background-color: rgb(181, 182, 182);
+    font-family: 'Courier New', monospace;
+}
+nav .navbar-nav .nav-item a:hover{
+    background-color: azure;
+    border-radius: 10px;
+    font-size: 18px;
+}
+nav form .bx-cart{
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 30px;
+}
+nav form .d-flex span{
+    font-size: 20px;
+    position: relative;
+    left: -12px;
+    
+
+}
+
+/* section deux -------------------- */
+.section-deux .container .row .col-4 img{
+    height: 300px;
+    width: 100%;
+    box-shadow: 0.5px 0.5px 0.5px wheat;
+}
+
+
+/* partie commentaire */
+.review small{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-brand);
+}
+
+/* commentaire ------------------ */
+.review-head{
+    position: relative;
+    background-color: rgb(227, 230, 230);
+}
+.review-head::after{
+    content: "";
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-color: rgb(181, 182, 182);
+    transform: rotate(45deg);
+}
+.review-person img{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    background-color: rgb(227, 230, 230);
+}
+
+
+/* liste de produit */
+.container .row .col-sm-6 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 4px 7px 7px 0px black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.container .row .col-sm-6 img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+/* PARTIE INSCRIPTION */
+        .form-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 50px auto;
+            height: 600px;
+        }
+        .form-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+           
+        }
+        .form-footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+
+        /* PARTIE CONNEXION */
+    .form-container {
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 100px auto;
+    }
+    .form-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .form-group label {
+        font-weight: bold;
+    }
+    .btn-custom {
+        background-color: #007bff;
+        color: white;
+    }
+    .btn-custom:hover {
+        background-color: #0056b3;
+    }
+    .form-footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .form-footer a {
+        text-decoration: none;
+        color: #007bff;
+    }
+    .form-footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* partie formulaire */
+  .contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* partie presentation */
+  .container .row .card{
+    width: 370px;
+    
+  }
+  .container .row .card img{
+    height: 350px;
+  }
